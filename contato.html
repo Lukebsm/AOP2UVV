@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkpoint Lab - Contatos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="topo">
+            <a href="index.html" class="logo">CHECKPOINT <span>LAB</span></a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="hardware.html">Hardware & Mods</a></li>
+                    <li><a href="reviews.html">Reviews & Clássicos</a></li>
+                    <li><a href="trofeus.html">Guia de Troféus</a></li>
+                    <li><a href="contato.html" class="ativo">Contatos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h1 class="titulo-secao">Contatos</h1>
+
+        <section class="grid-contato">
+            <div class="post">
+                <span class="tag">Sobre o Projeto</span>
+                <h2>Autor</h2>
+                <p>
+                    Blog desenvolvido por <strong>Luke Brunoro Schineider Mateus</strong> para a Atividade Online Pontuada 2 (AOP2) do curso de Sistemas de Informação da Universidade Vila Velha (UVV).
+                </p>
+                <h3>Informações</h3>
+                <ul>
+                    <li><strong>Curso:</strong> Sistemas de Informação - UVV</li>
+                    <li><strong>Local:</strong> Vila Velha - ES</li>
+                    <li><strong>GitHub:</strong> github.com/lukebsm</li>
+                </ul>
+            </div>
+
+            <div class="post">
+                <h2>Envie uma Mensagem</h2>
+                <form action="#" method="post">
+                    <div class="campo">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="assunto">Assunto</label>
+                        <select id="assunto" name="assunto" required>
+                            <option value="">Selecione...</option>
+                            <option value="hardware">Dúvida sobre Hardware & Mods</option>
+                            <option value="reviews">Sugestão de Review</option>
+                            <option value="trofeus">Dica de Troféus</option>
+                            <option value="outro">Outro assunto</option>
+                        </select>
+                    </div>
+
+                    <div class="campo">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Digite sua mensagem..." required></textarea>
+                    </div>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>2026 Checkpoint Lab - Desenvolvido por Luke Brunoro Schineider Mateus (Sistemas de Informação - UVV)</p>
+        <p>Imagens gratuitas via Unsplash com créditos aos autores.</p>
+    </footer>
+</body>
+</html>
